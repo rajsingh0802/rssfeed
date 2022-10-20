@@ -1,4 +1,5 @@
-# Added requirement understaning excel doc + System Design Architecture  + Database architecture 
+# Added requirement understaning excel doc: RSSFeedSDLC_Doc.xls 
+# System Design Architecture  + Database architecture 
 # Java8+SpringBoot+JSoup+ROME
 ## Web blogs and RSS feed generator
 Spring Boot based example application for website blogs and RSS feed generation.
