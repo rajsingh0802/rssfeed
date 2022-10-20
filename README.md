@@ -1,19 +1,15 @@
+# Added Requirement understaning + System Design Architecture  + Database architecture 
 # Java8+SpringBoot+JSoup+ROME
 ## Web blogs and RSS feed generator
 Spring Boot based example application for website blogs and RSS feed generation.
 
 ## Technologies
 
-+ Spring Boot
-+ Gradle
-+ JSoup
-+ ROME
-+ Lombok
-+ PostgreSQL/Cassandra
++ Spring Boot/Gradle/JSoup/Rome/Lombok/Cassandra(Better here) or Postgresql
 
 ## Configuration
 
-+ Create PostgreSQL database and configure connection in **application.properties**
++ Create Cassandra/PostgreSQL database and configure connection in **application.properties**
 + Build with Gradle
 
     `./gradlew build`
