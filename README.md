@@ -1,7 +1,6 @@
-# Spring Boot + JSoup + ROME
-## Web scraper and RSS feed generator
-Spring Boot based example application for website scraping and RSS feed generation.
-
+# Java8+SpringBoot+JSoup+ROME
+## Web blogs and RSS feed generator
+Spring Boot based example application for website blogs and RSS feed generation.
 
 ## Technologies
 
@@ -10,7 +9,7 @@ Spring Boot based example application for website scraping and RSS feed generati
 + JSoup
 + ROME
 + Lombok
-+ PostgreSQL
++ PostgreSQL/Cassandra
 
 ## Configuration
 
@@ -22,11 +21,11 @@ Spring Boot based example application for website scraping and RSS feed generati
 
 ## Endpoints
 
-+ **GET /scrap** – Scrap all websites on demand
++ **GET /rssblog** – all blogs scrap websites on demand
 
-+ **GET /rss** – Get general RSS feed
++ **GET /generaterssfeed** – Get general RSS feed
 
-+ **GET /rss/<TARGET_WEBSITE_ID>** – Get RSS feed for specific website
++ **GET /generaterssfeed/<TARGET_WEBSITE_ID>** – Get RSS feed for specific website
 
 
 ## More information
